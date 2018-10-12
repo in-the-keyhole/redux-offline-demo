@@ -1,0 +1,28 @@
+{
+  "fuelSavings": [
+    {
+      "id": "1",
+      "monthly": "$-130",
+      "annual": "$-1,560",
+      "threeYear": "$-4,680",
+      "newMpg": "3",
+      "tradeMpg": "3",
+      "newPpg": "33",
+      "tradePpg": "3",
+      "milesDriven": "3",
+      "milesDrivenTimeframe": "week",
+      "displayResults": false,
+      "dateModified": "10/12 13:45:05",
+      "necessaryDataIsProvidedToCalculateSavings": true
+    },
+    {
+      "id": "J7IlJnJ"
+    },
+    {
+      "id": "mJEyKPY"
+    },
+    {
+      "id": "evgAFAw"
+    }
+  ]
+}
