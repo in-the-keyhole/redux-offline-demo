@@ -15,6 +15,8 @@ export class FuelSavingsPage extends React.Component {
   }
 
   render() {
+    console.log('offline', this.props.offline);
+    console.log('busy?', this.props.offline.busy);
     return (
       <FuelSavingsForm
         onSaveClick={this.saveFuelSavings}
@@ -32,7 +34,8 @@ FuelSavingsPage.propTypes = {
 
 function mapStateToProps(state) {
   return {
-    fuelSavings: state.fuelSavings
+    fuelSavings: state.fuelSavings,
+    offline: state.offline,
   };
 }
 
@@ -44,5 +47,5 @@ function mapDispatchToProps(dispatch) {
 
 export default connect(
   mapStateToProps,
-  mapDispatchToProps
+  mapDispatchToProps,
 )(FuelSavingsPage);

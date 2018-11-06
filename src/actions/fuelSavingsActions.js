@@ -32,8 +32,8 @@ export function saveFuelSavings(settings) {
         offline: {
           // the network action to execute:
           effect: {
-            url: "http://localhost:3004/fuelSavings",
-            method: "POST",
+            url: "http://localhost:3000/fuel-savings",
+            method: "GET",
             json: {
               ...payload
             }

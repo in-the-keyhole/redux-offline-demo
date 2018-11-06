@@ -32,6 +32,7 @@
   "license": "MIT",
   "dependencies": {
     "@redux-offline/redux-offline": "2.4.0",
+    "babel-polyfill": "6.26.0",
     "connected-react-router": "4.4.1",
     "flat": "4.1.0",
     "object-assign": "4.1.1",
